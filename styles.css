@@ -1,0 +1,36 @@
+/* Define o estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;       /* Usa uma fonte simples e legível */
+    background-color: #f2f2f2;            /* Cor de fundo clara */
+    display: flex;                        /* Usado para centralizar o conteúdo */
+    justify-content: center;             /* Alinha o conteúdo no centro horizontal */
+    align-items: center;                 /* Alinha o conteúdo no centro vertical */
+    height: 100vh;                        /* Altura da tela inteira */
+    margin: 0;                            /* Remove margem padrão do navegador */
+  }
+  
+  /* Estilo da caixa principal (container) */
+  .container {
+    background-color: white;             /* Fundo branco para contraste */
+    padding: 30px;                       /* Espaçamento interno */
+    border-radius: 10px;                 /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da caixa */
+    width: 300px;                        /* Largura fixa da caixa */
+    text-align: center;                 /* Centraliza o texto */
+  }
+  
+  /* Estilo dos inputs e botão */
+  input, button {
+    width: 100%;                         /* Ocupa toda a largura da caixa */
+    padding: 10px;                       /* Espaçamento interno */
+    margin-top: 10px;                    /* Espaço acima do botão/input */
+    font-size: 16px;                     /* Tamanho da fonte maior para melhor leitura */
+    box-sizing: border-box;             /* Inclui padding dentro da largura total */
+  }
+  
+  /* Estilo da área onde o resultado será exibido */
+  #resultado {
+    margin-top: 20px;                    /* Espaço acima da resposta */
+    font-weight: bold;                   /* Texto em negrito */
+  }
+  

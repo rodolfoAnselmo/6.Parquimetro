@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Parquímetro</title>
+
+  <!-- Importa os estilos do arquivo externo CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Container principal da interface -->
+  <div class="container">
+    <!-- Título da aplicação -->
+    <h2>Simulador de Parquímetro</h2>
+
+    <!-- Rótulo do campo de entrada -->
+    <label for="valor">Insira o valor (R$):</label>
+
+    <!-- Campo onde o usuário digita o valor -->
+    <input type="number" id="valor" step="0.01" min="0">
+
+    <!-- Botão que, ao ser clicado, executa a função "simular()" -->
+    <button onclick="simular()">Simular</button>
+
+    <!-- Área onde o resultado será exibido -->
+    <div id="resultado"></div>
+  </div>
+
+  <!-- Importa o script JavaScript com a lógica da aplicação -->
+  <script src="scripts.js"></script>
+</body>
+</html>
