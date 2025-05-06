@@ -17,7 +17,7 @@ class Parquimetro {
         troco = this.valor - 1;
       } else if (this.valor < 3) {
         tempo = 60;
-        troco = this.valor - 2;
+        troco = this.valor - 1.75;
       } else {
         tempo = 120;
         troco = this.valor - 3;
